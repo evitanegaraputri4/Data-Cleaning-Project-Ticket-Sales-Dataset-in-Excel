@@ -32,6 +32,10 @@ This project focuses on cleaning and standardizing raw ticket sales data collect
    - Documented missing values and unresolved issues for stakeholder review and further input.  
    *(See screenshot 4)*
 
+**Access the cleaned dataset here:**  
+[Google Sheets - Ticket Sales Cleaned Data](https://docs.google.com/spreadsheets/d/1qgoPaENiKtOy_6OiFcga8sB8Q-RZTm6v/edit?gid=1224092837#gid=1224092837)
+
+
 ---
 
 ## Dataset Summary
@@ -90,7 +94,6 @@ Feel free to reach out via:
 
 ---
 
-*This project demonstrates my ability to clean, consolidate, and prepare messy datasets using Excel, crucial for business-ready data analytics.*
 
 
 
