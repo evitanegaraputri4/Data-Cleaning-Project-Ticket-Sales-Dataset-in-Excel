@@ -24,7 +24,8 @@ This project focuses on cleaning and standardizing raw ticket sales data collect
    *(See screenshot 3)*
 
 4. **Data Cleaning & Standardization**  
-   -  First, checked and corrected data types (e.g., ensured dates are in proper date format, names as text) to maintain data integrity.  Trimmed inconsistent spaces with `TRIM` to remove extra whitespace.  
+   - First, checked and corrected data types (e.g., ensured dates are in proper date format, names as text) to maintain data integrity.
+   - Trimmed inconsistent spaces with `TRIM` to remove extra whitespace.  
    - Standardized city names using a mapping table with `XLOOKUP` (e.g., “Mumbai” to “Bombay”, “New York” to “Big Apple”).  
    - Extracted date and time information from the event details into separate columns (`Date Proper` and `Time`) for clarity and usability.  
    - Identified and removed fully duplicated rows to improve data quality.  
@@ -68,10 +69,17 @@ This project focuses on cleaning and standardizing raw ticket sales data collect
 ---
 
 ## Screenshots  
-1. Initial fragmented tables with inconsistent formatting  
-2. Reorganized second table using `WRAPROWS`  
-3. Combined unified table using `VSTACK`  
+1. Initial fragmented tables with inconsistent formatting
+   ![Image 1](https://github.com/user-attachments/assets/3f31272e-5ec1-480e-8fb2-9012c1cfe4c7)
+
+2. Reorganized second table using `WRAPROWS`
+   ![Image 2](https://github.com/user-attachments/assets/11a48fab-5662-49bf-bebd-6ad2b141d512)
+
+3. Combined unified table using `VSTACK`
+   ![image 3](https://github.com/user-attachments/assets/66bd9b9a-9acf-423f-8dd9-cebff9360355)
+
 4. Final cleaned and standardized dataset with added date and time columns  
+![Image 4](https://github.com/user-attachments/assets/ef947406-ba3e-44a4-85f6-b8acde5cf38e)
 
 ---
 
