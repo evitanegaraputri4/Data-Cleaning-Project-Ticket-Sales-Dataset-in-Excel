@@ -78,7 +78,7 @@ This project focuses on cleaning and standardizing raw ticket sales data collect
 
 
 2. Reorganized second table using `WRAPROWS`
-   ![Image 22](https://github.com/user-attachments/assets/cdc8b914-7b8e-455f-99c9-3f05234cad74)
+ ![Image 222](https://github.com/user-attachments/assets/00014fc2-f396-47a7-97bd-da55c19fe5c2)
 
 
 3. Combined unified table using `VSTACK`
