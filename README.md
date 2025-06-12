@@ -90,8 +90,7 @@ This project focuses on cleaning and standardizing raw ticket sales data collect
 
 ## Contact  
 Feel free to reach out via:  
-- Email: [your email here]  
-- LinkedIn: [your LinkedIn profile]
+- Email: [evitanegara@gmail.com]  
 
 ---
 
