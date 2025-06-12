@@ -44,9 +44,8 @@ This project focuses on cleaning and standardizing raw ticket sales data collect
   - Extracted date and time details from the "Event Detail" column into separate "Date Proper" and "Time" columns to improve clarity and support further analysis
   - Documented missing values for stakeholder review
 
-Access the cleaned dataset here:
-Google Sheets - Ticket Sales Cleaned Data
-
+**Access the cleaned dataset here:**  
+[Google Sheets - Ticket Sales Cleaned Data](https://docs.google.com/spreadsheets/d/1qgoPaENiKtOy_6OiFcga8sB8Q-RZTm6v/edit?gid=1224092837#gid=1224092837)
 ---
 
 ## Data Cleaning Summary
