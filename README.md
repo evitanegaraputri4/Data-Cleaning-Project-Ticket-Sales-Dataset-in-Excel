@@ -24,7 +24,7 @@ This project focuses on cleaning and standardizing raw ticket sales data collect
    *(See screenshot 3)*
 
 4. **Data Cleaning & Standardization**  
-   - Trimmed inconsistent spaces with `TRIM` to remove extra whitespace.  
+   -  First, checked and corrected data types (e.g., ensured dates are in proper date format, names as text) to maintain data integrity.  Trimmed inconsistent spaces with `TRIM` to remove extra whitespace.  
    - Standardized city names using a mapping table with `XLOOKUP` (e.g., “Mumbai” to “Bombay”, “New York” to “Big Apple”).  
    - Extracted date and time information from the event details into separate columns (`Date Proper` and `Time`) for clarity and usability.  
    - Identified and removed fully duplicated rows to improve data quality.  
