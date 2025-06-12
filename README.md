@@ -74,18 +74,17 @@ This project focuses on cleaning and standardizing raw ticket sales data collect
 
 ## Screenshots  
 1. Initial fragmented tables with inconsistent formatting
-  ![Image 11](https://github.com/user-attachments/assets/8e89f12f-049e-4e27-92a6-2c4e2f41ce04)
-
+![Image Excel 1](https://github.com/user-attachments/assets/b43003ec-e6a9-4eb1-aeec-de840d5d37ca)
 
 2. Reorganized second table using `WRAPROWS`
- ![Image 222](https://github.com/user-attachments/assets/00014fc2-f396-47a7-97bd-da55c19fe5c2)
-
+![Image Excel 2](https://github.com/user-attachments/assets/ba1f04be-3f27-40ca-878b-bd5d09d4bf46)
 
 3. Combined unified table using `VSTACK`
-   ![image 3](https://github.com/user-attachments/assets/66bd9b9a-9acf-423f-8dd9-cebff9360355)
+![Image Excel 3](https://github.com/user-attachments/assets/13bcec2d-7360-468e-a1a6-744e363cda2d)
 
 4. Final cleaned and standardized dataset with added date and time columns  
-![Image 4](https://github.com/user-attachments/assets/ef947406-ba3e-44a4-85f6-b8acde5cf38e)
+![Image Excel 4](https://github.com/user-attachments/assets/77267311-6bd4-4c8e-a9da-06142a8da0be)
+
 
 ---
 
