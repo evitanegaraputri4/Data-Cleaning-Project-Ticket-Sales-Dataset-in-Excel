@@ -10,11 +10,6 @@ This project focuses on cleaning and standardizing raw ticket sales data collect
 
 ---
 
-## Project Type
-- Data Cleaning & Standardization
-
----
-
 ## Cleaning Process
 1. **Initial Data**  
    The dataset was split across two fragmented tables with inconsistent formatting, missing values, and mixed currency symbols.  
