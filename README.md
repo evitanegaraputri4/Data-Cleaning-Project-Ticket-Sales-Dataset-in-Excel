@@ -10,11 +10,6 @@ This project focuses on cleaning and standardizing raw ticket sales data collect
 
 ---
 
-## Project Type
-- Data Cleaning & Standardization
-
----
-
 ## Objective
 - Combine fragmented ticket sales tables into a unified dataset  
 - Standardize inconsistent city names for consistent analysis  
@@ -48,7 +43,9 @@ This project focuses on cleaning and standardizing raw ticket sales data collect
   - Identified and removed 6 fully duplicated rows to ensure data quality
   - Extracted date and time details from the "Event Detail" column into separate "Date Proper" and "Time" columns to improve clarity and support further analysis
   - Documented missing values for stakeholder review
-  - 
+
+Access the cleaned dataset here:
+Google Sheets - Ticket Sales Cleaned Data
 
 ---
 
