@@ -52,13 +52,14 @@ This project focuses on cleaning and standardizing raw ticket sales data collect
 
 ## Data Cleaning Summary
 
-| Issue                        | Resolution                                    |
-|-----------------------------|----------------------------------------------|
-| Fragmented data tables       | Used `VSTACK` to vertically combine tables   |
-| Extra spaces in names        | Applied `TRIM` function                       |
-| Inconsistent city spellings  | Used mapping table with `XLOOKUP`            |
-| Duplicate rows              | Removed 6 fully duplicated rows               |
-| Missing values in city/price | Documented and left for stakeholder input    |
+| No | Table            | Column       | Issues                                                                                             | Row Count | Solvable | Resolution                                  |
+|----|------------------|--------------|--------------------------------------------------------------------------------------------------|-----------|----------|---------------------------------------------|
+| 1  | Ticket Sales Data |              | Data was split across two tables with inconsistent and unclean formatting                        |           | Yes      | Used VSTACK to vertically combine the tables |
+| 2  | Ticket Sales Data | Person       | Inconsistent spaces                                                                              | 170       | Yes      | Used TRIM to clean spaces                    |
+| 3  | Ticket Sales Data | City         | Inconsistent spelling: "Mumbai" to "Bombay", "New York" to "Big Apple", "Las Vegas" to "Vegas" and "Sin City" | 44        | Yes      | Replaced city names and used XLOOKUP for standardization |
+| 4  | Ticket Sales Data | City         | Missing values                                                                                   | 6         | No       | Left as-is; requires stakeholder input       |
+| 6  | Ticket Sales Data | Ticket Price | Missing values                                                                                   | 5         | No       | Left as-is; requires stakeholder input       |
+| 7  | Ticket Sales Data |              | Found 6 fully duplicated rows in the dataset.                                                   | 6         | Yes      | Removed duplicates to ensure data quality    |
 
 ---
 
