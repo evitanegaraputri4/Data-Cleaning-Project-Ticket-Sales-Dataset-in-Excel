@@ -27,7 +27,7 @@ This project focuses on cleaning and standardizing raw ticket sales data collect
 ## Before Cleaning
 - **Number of tables:** 2 fragmented tables  
 - **Total rows:** 171 rows combined  
-- **Total columns:** 6 columns (Person, City, Ticket Price, Event Detail, Date, Time)  
+- **Total columns:** 4 columns (Person, City, Ticket Price, Event Detail)  
 - **Issues Identified:**  
   - Duplicate rows  
   - Inconsistent city spellings (e.g., "Mumbai" vs "Bombay")  
@@ -45,8 +45,10 @@ This project focuses on cleaning and standardizing raw ticket sales data collect
   - Combined tables using `VSTACK`  
   - Trimmed spaces using `TRIM`  
   - Standardized city names using mapping tables and `XLOOKUP`  
-  - Removed 6 duplicate rows  
+  - Identified and removed 6 fully duplicated rows to ensure data quality
+  - Extracted date and time details from the "Event Detail" column into separate "Date Proper" and "Time" columns to improve clarity and support further analysis
   - Documented missing values for stakeholder review
+  - 
 
 ---
 
@@ -71,19 +73,11 @@ This project focuses on cleaning and standardizing raw ticket sales data collect
 
 ---
 
-## How to Use
-1. Open the Excel workbook.  
-2. Review the **Raw Data** and **Cleaned Data** sheets.  
-3. Follow cleaning steps in the **Documentation** sheet.  
-4. Apply the same cleaning steps to future datasets.
-
----
-
 ## Screenshots
-*Add screenshots of your Excel workbook here:*  
-- Before cleaning (fragmented and inconsistent data)  
-- After cleaning (standardized, consolidated data)  
-- Example formulas used (TRIM, XLOOKUP, VSTACK, etc.)
+- Before cleaning
+  
+- After cleaning 
+
 
 ---
 
